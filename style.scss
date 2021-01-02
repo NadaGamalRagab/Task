@@ -1,0 +1,15 @@
+$searchWidth : 27rem;
+$searchHeight : 3.4rem ;
+$borderColor:#efefef;
+
+.search-style{
+    .search-style{
+    width: $searchWidth;
+    height: $searchHeight;
+    input{
+        border-radius: 10px;
+        border-width: 1.9px;
+        border-color: $borderColor;
+    }
+}
+}
