@@ -1,7 +1,13 @@
 $searchWidth : 27rem;
 $searchHeight : 3.4rem ;
 $borderColor:#efefef;
-
+$cover-height : 35vh;
+$iFontSize : 1.4rem ;
+$back-color : #f2f2f2;
+$text-size :1.1rem;
+body{
+    background-color: $back-color ;
+}
 .search-style{
     .search-style{
     width: $searchWidth;
@@ -12,4 +18,27 @@ $borderColor:#efefef;
         border-color: $borderColor;
     }
 }
+}
+.info{
+    background-color: #faf1ed;
+}
+
+.cover-div{
+    background-color: #e0e0e0;
+    height: $cover-height;
+}
+i{
+    font-size: $iFontSize ;
+}
+
+.prof-style{
+    position: absolute;
+    bottom: 0rem;
+}
+.text-size{
+    font-size: $text-size;
+}
+.edit-profile{
+    position: relative;
+    bottom: 3rem;
 }

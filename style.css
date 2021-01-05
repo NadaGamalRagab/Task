@@ -1,3 +1,6 @@
+body {
+  background-color: #f2f2f2; }
+
 .search-style .search-style {
   width: 27rem;
   height: 3.4rem; }
@@ -5,5 +8,26 @@
     border-radius: 10px;
     border-width: 1.9px;
     border-color: #efefef; }
+
+.info {
+  background-color: #faf1ed; }
+
+.cover-div {
+  background-color: #e0e0e0;
+  height: 35vh; }
+
+i {
+  font-size: 1.4rem; }
+
+.prof-style {
+  position: absolute;
+  bottom: 0rem; }
+
+.text-size {
+  font-size: 1.1rem; }
+
+.edit-profile {
+  position: relative;
+  bottom: 3rem; }
 
 /*# sourceMappingURL=style.css.map */
